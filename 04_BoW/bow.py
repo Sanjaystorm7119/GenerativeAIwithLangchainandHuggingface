@@ -6,7 +6,7 @@ import nltk
 nltk.download('stopwords')
 
 import pandas as pd
-messages=pd.read_csv('smsspamcollection/SMSSpamCollection',
+messages=pd.read_csv('../spamclassifier/SMSSpamCollection',
                     sep='\t',names=["label","message"])
 
 ## Data Cleaning And Preprocessing
